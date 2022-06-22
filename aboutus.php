@@ -13,7 +13,7 @@ if(  isset($_POST["submitButton"]))
     $email = $_POST["email"];
     //2. submit form data
     $insertData = mysqli_query($conn, "INSERT INTO 
-                  aboutus(email) 
+                  subscribers(email) 
                   VALUES('$email')");
 
 }
