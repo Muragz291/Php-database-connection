@@ -40,7 +40,7 @@ else{
 </head>
 <body>
         <!-- navigation bar -->
-        <!-- <nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
             <div class="container-fluid">
                <a href="#" class="navbar-brand">Zalego Academy</a>
                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDisplayNavigations" aria-expanded="false" >
@@ -55,7 +55,7 @@ else{
                    </div>
                </div>
            </div>
-       </nav> -->
+       </nav>
        <!-- End navigation bar -->
    
     
