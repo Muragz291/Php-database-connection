@@ -1,4 +1,4 @@
-<?php include("enrollprocess.php")?>
+
 <DOCTYPE html>
 <html lang= "en">
 <head>
@@ -56,6 +56,7 @@
             <h3 class="text-center color-dark font-large mt-4">Sign up today ?</h3>
            </div>
             </div>
+            <?php include("enrollprocess.php")?>
 
             <!-- Register now  page here -->
          <div class="container-fluid pt-5 shadow">
@@ -79,7 +80,7 @@
                     <div class="mb-3 col-lg-6">
                         <label for="gender" class="form-label">What's your gender?</label>
                         <div>
-                        <select class="form-select" aria-label="Default select example">
+                        <select name="gender" class="form-select" aria-label="Default select example">
                             <option selected>--Select your gender-- </option>
                             <option value="Male">Male</option>
                             <option value="Female">Female</option>
@@ -95,12 +96,12 @@
                     </div>
                         <div class="row">
                             <div class="col-lg-6 mt-3">
-                            <label for="gender" class="form-label">What's your preferred course?</label>
-                            <select class="form-select" aria-label="Default select example">
-  <option selected>--Select your course-- </option>
-  <option value="Cyber security">Cyber security</option>
-  <option value="Website Development">Website Development</option>
-</select>
+                            <label for="course" class="form-label">What's your preferred course?</label>
+                            <select  name="course"class="form-select" aria-label="Default select example">
+                                <option selected>--Select your course-- </option>
+                                <option value="Cyber security">Cyber security</option>
+                                <option value="Website Development">Website Development</option>
+                            </select>
                             </div>
                         </div>
                     </form>
